@@ -1,7 +1,7 @@
 {
   "description": "Adds preserved tab groups to Firefox 57+",
   "manifest_version": 2,
-  "name": "TabGrouplets",
+  "name": "Tablets",
   "author": "Cody Welsh <codyw@protonmail.com>",
   "version": "0.01",
   "icons": {
@@ -15,7 +15,8 @@
 
   "browser_action": {
     "default_icon": "icons/tablets.svg",
-    "default_title": "Tablets"
+    "default_title": "Tablets",
+    "default_popup": "interface/tablets.html"
   },
 
   "web_accessible_resources": [
